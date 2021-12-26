@@ -12,7 +12,7 @@
 
 ## Summary
 ***
-All last year i learned frontend and backend in js ecosystem. Tommorow and the day after tommorow i still want to learn it. I don’t have comecrial experience, but i have some pet projects, which you can see on my [GitHub](https://github.com/SklifCybe).
+All last year i learned frontend and backend in js ecosystem. And in the future i still want to learn it. I don’t have comecrial experience, but i have some pet projects, which you can see on my [GitHub](https://github.com/SklifCybe).
 
 ## Education
 ***
