@@ -11,6 +11,12 @@
 ## Summary
 ***
 > All last year i learned frontend and backend in js ecosystem. Tommorow and the day after tommorow i still want to learn it. I don’t have comecrial experience, but i have some pet projects, which you can see on my [GitHub](https://github.com/SklifCybe).
+## Education
+***
+1. (2017 - 2020) "Vitebsk State Technical College". 
+    * Speciality - "Computers, systems and networks".
+2. (2020 - 2024) "Vitebsk State Technical University" 
+    * Speciality - "Information systems and networks".
 ## Skills
 ***
 * CSS (Preprocessor SCSS, BEM methodology)
@@ -20,12 +26,6 @@
 * DB: MongoDB.
 * Module Bundlers: Webpack.
 * Basic knowledge: C++, C, SQL, PHP.
-## Education
-***
-1. (2017 - 2020) "Vitebsk State Technical College". 
-    * Speciality - "Computers, systems and networks".
-2. (2020 - 2024) "Vitebsk State Technical University" 
-    * Speciality - "Information systems and networks".
 ## Experience
 ***
 * [Tic Tac Toe](https://sklifcybe.github.io/tic-tac-toe-native-js-/)
