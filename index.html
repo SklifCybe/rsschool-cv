@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicons/site.webmanifest">
+  <title>CV</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#contacts" class="main-links">Contacts</a></li>
+        <li class="nav-item"><a href="#summary" class="main-links">Summary</a></li>
+        <li class="nav-item"><a href="#skills" class="main-links">Skills</a></li>
+        <li class="nav-item"><a href="#code" class="main-links">Code</a></li>
+        <li class="nav-item"><a href="#projects" class="main-links">Projects</a></li>
+        <li class="nav-item"><a href="#education" class="main-links">Education</a></li>
+        <li class="nav-item"><a href="#languages" class="main-links">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="profile">
+      <img src="./images/avatar.png" alt="Avatar">
+      <div class="about-profile">
+        <h1 class="fullname">Ilya Strelkovski</h1>
+        <div class="profile-division">&nbsp;</div>
+        <h2 class="status">Student RS School</h2>
+      </div>
+    </section>
+    <div class="division">&nbsp;</div>
+    <div class="about">
+      <section class="contacts" id="contacts">
+        <ul>
+          <li>
+            <h2 class="contacts-title">Contacts</h2>
+          </li>
+          <li class="contact contacts-location">Vitebsk, Belarus</li>
+          <li class="contact contacts-email">Email:&nbsp;<a href="mailto:ilyastrelkovski@gmail.com"
+              class="link">ilyastrelkovski@gmail.com</a></li>
+          <li class="contact contacts-github">GitHub:&nbsp;<a href="https://github.com/SklifCybe" target="_blank"
+              class="link">SklifCybe</a>
+          </li>
+          <li class="contact contacts-telegram">Telegram&nbsp;<a href="https://t.me/Sklifer" target="_blank"
+              class="link">@Sklifer</a>
+          </li>
+          <li class="contact contacts-discord">Discord:&nbsp;<a href="https://discordapp.com/users/Sklif#8454"
+              target="_blank" class="link">Sklif#8454</a>
+          </li>
+        </ul>
+      </section>
+      <section class="summary" id="summary">
+        <h2 class="contacts-title">summary</h2>
+        <p>All last year i learned frontend and backend in JS ecosystem. And in the future i still want to learn it. I
+          don’t have commercial experience, but i have some pet projects, which you can see on my <a
+            href="https://github.com/SklifCybe" target="_blank" class="link">GitHub</a>.</p>
+      </section>
+      <section class="second-sections skills" id="skills">
+        <h2 class="contacts-title">skills</h2>
+        <ul>
+          <li class="list-item">CSS&nbsp;<span class="green-color">(Preprocessor SCSS, BEM methodology)</span></li>
+          <li class="list-item">JS:&nbsp;<span class="green-color">Typescript, React, Redux, Redux-Toolkit.</span></li>
+          <li class="list-item">UI frameworks:&nbsp;<span class="green-color">Material UI, Ant Design.</span></li>
+          <li class="list-item">Node JS on backend:<span class="green-color">express, mongoose, jsonwebtoken.</span>
+          </li>
+          <li class="list-item">DB:&nbsp;<span class="green-color">MongoDB.</span></li>
+          <li class="list-item">Module Bundlers:&nbsp;<span class="green-color">Webpack.</span></li>
+          <li class="list-item">Basic knowledge:&nbsp;<span class="green-color">C++, C, SQL, PHP.</span></li>
+        </ul>
+      </section>
+      <section class="second-sections code" id="code">
+        <h2 class="contacts-title">code</h2>
+        <p class="task-text">Write a function that takes an integer as input, and returns the number of bits that are
+          equal to one in the
+          binary representation of that number. You can guarantee that input is non-negative.</p>
+        <code>const countBits = num => num.toString(2)
+          .split('')
+          .reduce((sum, cur) => (cur === '1') ? sum += +cur : sum, 0)
+        </code>
+      </section>
+      <section class="second-sections education" id="education">
+        <h2 class="contacts-title">education</h2>
+        <ul>
+          <li class="list-item">
+            <p>Vitebsk State Technological University: <span class="green-color">Information systems and
+                technologies in design and production
+                (2020 - 2024)</span></p>
+          </li>
+          <li class="list-item">
+            <p>Vitebsk State Technical College: <span class="green-color">Computers systems and networks (2017 -
+                2020)</span></p>
+          </li>
+        </ul>
+      </section>
+      <section class="second-sections projects" id="projects">
+        <h2 class="contacts-title">projects</h2>
+        <ul>
+          <li class="list-item"><a href="https://sklifcybe.github.io/tic-tac-toe-native-js-/" target="_blank"
+              class="link">Tic Tac
+              Toe</a></li>
+          <li class="list-item"><a href="https://61801e986c02f5b349bc1c49--relaxed-pike-0e650b.netlify.app/"
+              target="_blank" class="link">RealTime
+              Chat</a></li>
+          <li class="list-item"><a href="https://sklifcybe.github.io/Holidays/" target="_blank"
+              class="link">Holidays</a></li>
+        </ul>
+      </section>
+      <section class="second-sections languages" id="languages">
+        <h2 class="contacts-title">languages</h2>
+        <ul>
+          <li class="list-item">Russian - Native</li>
+          <li class="list-item">English - Pre Intermediate A2</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <span>&copy; 2022</span>
+    <span class="nav-item"><a href="https://github.com/SklifCybe" target="_blank" class="main-links">My
+        GitHub</a></span>
+    <span><a href="https://rs.school/js-stage0/" target="_blank"><img src="./images/assets/rss.svg"
+          alt="Rs school"></a></span>
+  </footer>
+</body>
+
+</html>
